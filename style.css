@@ -1,0 +1,115 @@
+
+*{
+    box-sizing: border-box;
+}
+
+.line{
+    background-color: rosybrown;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    margin-top: 30px;
+}
+.one{
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color:rgb(195, 234, 240);
+
+    float: left;
+}
+
+.two{
+    display: block;
+    width: 100px;
+    height: 100px;  
+    background-color: pink;
+    float: right;
+}
+.clearfix{
+    clear: both;
+}
+
+.container-2{
+    display: block;
+    float: right;
+    margin-top: 25px
+    
+}
+
+.block2{
+    display: inline-block;
+    width: 50px;
+    height: 50px;  
+    margin-left: 10px;
+    background-color: pink;
+  
+}
+
+.one.three{
+    margin-left: 20px;
+}
+
+.two.three{
+    margin-left: 20px;
+}
+
+.four{
+    display: block;
+    width: 150px;
+    height: 150px;
+    background-color:rgb(195, 234, 240);
+    margin-left: 120px;
+    float: left;
+}
+
+.block4{
+    display: block;
+    width: 150px;
+    height: 50px;  
+    background-color: pink;
+}
+
+.block4.bottom{
+    margin-top: 30px;
+}
+
+.container-4{
+    float: right;
+    margin-right: 120px;
+}
+
+.main-container5{
+    display: block;
+    float: right;
+}
+
+.five{
+    display: block;
+    width: 150px;
+    height: 150px;
+    background-color:rgb(195, 234, 240);
+    margin-left: 120px;
+    float: left;
+}
+
+.block5{
+    display: block;
+    width: 150px;
+    height: 50px;  
+    background-color: pink;
+}
+
+.block5.bottom{
+    margin-top: 30px;
+}
+
+.container-5{
+    float: right;
+    margin-left: 20px;
+    margin-right: 50px;
+}
+
+
+
